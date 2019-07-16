@@ -10,10 +10,12 @@ class Student
   
   
   def self.create_table 
-    <<-SQL
+   sql =  <<-SQL
     
     
     SQL 
+    
+    
   
   end   
 
