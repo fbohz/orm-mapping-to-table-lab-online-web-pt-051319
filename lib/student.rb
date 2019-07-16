@@ -38,7 +38,7 @@ class Student
     
   end
   
-  def create(hash) 
+  def self.create(hash) 
     Student.new.tap.do |student|
       hash.each do |k,v|
         student.send("#{k}", v)
